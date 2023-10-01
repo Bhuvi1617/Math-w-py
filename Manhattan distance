@@ -1,0 +1,28 @@
+a,b=map(int,input().split(“ “))
+c,d=map(int,input().split(“ “))
+e,f=map(int,input().split(“ “))
+
+
+if a>c:
+    g=a-c
+else:
+    g=c-a
+if b>d:
+    k=b-d
+else:
+    k=d-b
+if a>c:
+    v=a-c
+else:
+    v=c-a
+if b>f:
+    x=b-f
+else:
+    x=f-b
+
+e=g+k
+z=v+x
+if e>z:
+    print("2")
+else:
+    print("1")
